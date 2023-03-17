@@ -262,4 +262,22 @@
                 image="https://images.pexels.com/photos/4577808/pexels-photo-4577808.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1" />
         </section>
     </div>
+
+    <div class="container py-12 md:py-32">
+        <!-- News -->
+        <section>
+            <WidgetLinedHeading title="Read our news" class="font-semibold capitalize mb-10" />
+        </section>
+
+        <!-- Events -->
+        <section>
+            <WidgetLinedHeading title="Our events" class="font-semibold capitalize mb-10" />
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <CardsEvent date="" title="Say no to plastic usage and save the planet" />
+
+                <CardsEvent date="" title="Weekly cleaning program" />
+            </div>
+        </section>
+    </div>
 </template>
