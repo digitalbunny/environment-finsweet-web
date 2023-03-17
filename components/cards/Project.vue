@@ -12,10 +12,10 @@
         :style="{'background-image': `url(${props.image})`}">
         <figcaption class="flex flex-col space-y-4">
             <div class="space-y-2 mb-10">
-                <h2 class="font-bold ms:text-lg md:text-xl xl:text-2xl">
+                <h2 class="card-title">
                     {{ props.title }}
                 </h2>
-                <p class="text-xs md:text-sm xl:text-base font-light line-clamp-3">
+                <p class="card-text line-clamp-3">
                     {{ props.description }}
                 </p>
             </div>

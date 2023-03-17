@@ -12,3 +12,15 @@
       @apply scroll-smooth font-inter text-zinc-800;
     }
 }
+
+.card-title {
+  @apply font-bold text-lg md:text-xl xl:text-2xl;
+}
+
+.card-caption {
+  @apply text-xs md:text-sm xl:text-base font-medium uppercase;
+}
+
+.card-text {
+  @apply text-xs md:text-sm xl:text-base font-light;
+}
