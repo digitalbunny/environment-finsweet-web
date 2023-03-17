@@ -121,4 +121,48 @@
             </div>
         </div>
     </div>
+
+    <!-- Project summary -->
+    <div class="container py-12 md:py-32">
+        <section class="w-full md:w-1/2 mb-10 md:mb-20">
+            <div class="flex justify-start items-center space-x-4 mb-4">
+                <div class="w-[10%] h-px bg-black"></div>
+                <h2 class="text-xs md:text-sm xl:text-base font-medium uppercase">
+                    Project with have done
+                </h2>
+            </div>
+
+            <div class="flex justify-start md:space-x-4">
+                <div class="hidden md:block md:w-[10%] h-full"></div>
+                <div class="w-full md:w-[90%]">
+                    <h2 class="font-bold text-2xl md:text-4xl xl:text-5xl leading-8 text-left">
+                        We are Creating sustainable society, for everyone and forever.
+                    </h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-10">
+            <CardsProject 
+                title="Mission 40K: Tree plantation"
+                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nisi ullam 
+                dolor animi eligendi quas quae explicabo veritatis expedita dolorum, placeat nostrum in hic 
+                perspiciatis, delectus officiis distinctio, soluta cum."
+                image="https://images.pexels.com/photos/11534117/pexels-photo-11534117.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1" />
+
+            <CardsProject 
+                title="Weekly cleanliness program in city"
+                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nisi ullam 
+                dolor animi eligendi quas quae explicabo veritatis expedita dolorum, placeat nostrum in hic 
+                perspiciatis, delectus officiis distinctio, soluta cum."
+                image="https://images.pexels.com/photos/12492222/pexels-photo-12492222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+
+            <CardsProject 
+                title="Wildlife safety program 2023"
+                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nisi ullam 
+                dolor animi eligendi quas quae explicabo veritatis expedita dolorum, placeat nostrum in hic 
+                perspiciatis, delectus officiis distinctio, soluta cum."
+                image="https://images.pexels.com/photos/4577808/pexels-photo-4577808.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1" />
+        </section>
+    </div>
 </template>
