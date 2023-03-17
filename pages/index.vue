@@ -39,24 +39,20 @@
     <div class="container py-12 md:py-32">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 xl:gap-32 mb-8 items-center">
             <div>
-                <div class="flex justify-start items-center space-x-4 mb-4">
-                    <div class="w-[10%] h-px bg-black"></div>
-                    <h2 class="text-xs md:text-sm xl:text-base font-medium uppercase">Know about us</h2>
-                </div>
+                <WidgetHeading 
+                    caption="Know about us"
+                    title="We help nature smile and survive everywhere."
+                    class="mb-10" />
 
                 <div class="flex justify-start md:space-x-4">
                     <div class="hidden md:block md:w-[10%] h-full"></div>
 
-                    <div class="w-full md:w-[90%] text-xs md:text-sm xl:text-base text-justify space-y-6">
-                        <h2 class="font-bold text-2xl md:text-4xl xl:text-5xl leading-8 text-left">
-                            We help nature smile and survive everywhere
-                        </h2>
-
-                        <p class="text-zinc-500">
+                    <div class="w-full md:w-[90%] text-xs md:text-sm xl:text-base text-justify text-zinc-500 space-y-6">
+                        <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, ullam officiis distinctio perspiciatis nihil non earum voluptate blanditiis fuga tempore temporibus assumenda, quos molestiae quisquam nulla esse, reiciendis mollitia nemo!
                         </p>
 
-                        <p class="text-zinc-500">
+                        <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, ullam officiis distinctio perspiciatis nihil non earum voluptate blanditiis fuga tempore temporibus assumenda, quos molestiae quisquam nulla esse, reiciendis mollitia nemo!
                         </p>
 
@@ -122,25 +118,126 @@
         </div>
     </div>
 
+    <!-- What we do -->
+    <div class="bg-tertiary-green py-12 md:py-32">
+        <div class="container grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 xl:gap-32 mb-8 items-center">
+            <section>
+                <WidgetHeading 
+                    caption="What we do"
+                    title="We care for earch, care for the coming birth"
+                    class="mb-10" />
+
+                <div class="flex justify-start md:space-x-4">
+                    <div class="hidden md:block md:w-[10%] h-full"></div>
+
+                    <div class="w-full md:w-[90%] text-xs md:text-sm xl:text-base text-justify text-zinc-500 space-y-6">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, ullam officiis distinctio perspiciatis nihil non earum voluptate blanditiis fuga tempore temporibus assumenda, quos molestiae quisquam nulla esse, reiciendis mollitia nemo!
+                        </p>
+
+                        <ul class="border-l border-zinc-200 md:pl-6 text-xs md:text-sm xl:text-base space-y-8">
+                            <li class="flex">
+                                <div class="flex justify-center items-center bg-primary-green text-tertiary-green w-14 h-10 mr-6 rounded-md">
+                                    <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
+                                    </svg>
+                                </div>
+
+                                <div>
+                                    <h2 class="font-bold text-lg md:text-xl xl:text-2xl text-zinc-800 capitalize mb-2">
+                                        Building healthy cities
+                                    </h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="flex">
+                                <div class="flex justify-center items-center bg-primary-green text-tertiary-green w-14 h-10 mr-6 rounded-md">
+                                    <svg class="w-5 h-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M7 15h10v4a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2v-4z"></path>
+                                        <path d="M12 9a6 6 0 0 0 -6 -6h-3v2a6 6 0 0 0 6 6h3"></path>
+                                        <path d="M12 11a6 6 0 0 1 6 -6h3v1a6 6 0 0 1 -6 6h-3"></path>
+                                        <path d="M12 15l0 -6"></path>
+                                    </svg>
+                                </div>
+
+                                <div>
+                                    <h2 class="font-bold text-lg md:text-xl xl:text-2xl text-zinc-800 capitalize mb-2">
+                                        Tree plantantion
+                                    </h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="flex">
+                                <div class="flex justify-center items-center bg-primary-green text-tertiary-green w-14 h-10 mr-6 rounded-md">
+                                    <svg class="w-5 h-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M3 7c3 -2 6 -2 9 0s6 2 9 0"></path>
+                                        <path d="M3 17c3 -2 6 -2 9 0s6 2 9 0"></path>
+                                        <path d="M3 12c3 -2 6 -2 9 0s6 2 9 0"></path>
+                                    </svg>
+                                </div>
+
+                                <div>
+                                    <h2 class="font-bold text-lg md:text-xl xl:text-2xl text-zinc-800 capitalize mb-2">
+                                        Protect land and water
+                                    </h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="flex">
+                                <div class="flex justify-center items-center bg-primary-green text-tertiary-green w-14 h-10 mr-6 rounded-md">
+                                    <svg class="w-5 h-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M11 5h2"></path>
+                                        <path d="M19 12c-.667 5.333 -2.333 8 -5 8h-4c-2.667 0 -4.333 -2.667 -5 -8"></path>
+                                        <path d="M11 16c0 .667 .333 1 1 1s1 -.333 1 -1h-2z"></path>
+                                        <path d="M12 18v2"></path>
+                                        <path d="M10 11v.01"></path>
+                                        <path d="M14 11v.01"></path>
+                                        <path d="M5 4l6 .97l-6.238 6.688a1.021 1.021 0 0 1 -1.41 .111a.953 .953 0 0 1 -.327 -.954l1.975 -6.815z"></path>
+                                        <path d="M19 4l-6 .97l6.238 6.688c.358 .408 .989 .458 1.41 .111a.953 .953 0 0 0 .327 -.954l-1.975 -6.815z"></path>
+                                    </svg>
+                                </div>
+
+                                <div>
+                                    <h2 class="font-bold text-lg md:text-xl xl:text-2xl text-zinc-800 capitalize mb-2">
+                                        Animal safety
+                                    </h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <img 
+                    src="https://images.pexels.com/photos/7469233/pexels-photo-7469233.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1" 
+                    alt="img"
+                    class="object-cover w-full rounded-md" >
+            </section>
+        </div>
+    </div>
+
     <!-- Project summary -->
     <div class="container py-12 md:py-32">
-        <section class="w-full md:w-1/2 mb-10 md:mb-20">
-            <div class="flex justify-start items-center space-x-4 mb-4">
-                <div class="w-[10%] h-px bg-black"></div>
-                <h2 class="text-xs md:text-sm xl:text-base font-medium uppercase">
-                    Project with have done
-                </h2>
-            </div>
-
-            <div class="flex justify-start md:space-x-4">
-                <div class="hidden md:block md:w-[10%] h-full"></div>
-                <div class="w-full md:w-[90%]">
-                    <h2 class="font-bold text-2xl md:text-4xl xl:text-5xl leading-8 text-left">
-                        We are Creating sustainable society, for everyone and forever.
-                    </h2>
-                </div>
-            </div>
-        </section>
+        <WidgetHeading 
+            caption="Project with have done"
+            title="We are Creating sustainable society, for everyone and forever."
+            class="w-full md:w-1/2 mb-10 md:mb-20" />
 
         <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-10">
             <CardsProject 

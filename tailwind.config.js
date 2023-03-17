@@ -27,6 +27,7 @@ module.exports = {
             colors: {
                 "primary-green": "#70C174",
                 "secondary-green": "#BEF3C0",
+                "tertiary-green": "#EFF7F2",
                 "mirage": {
                     DEFAULT: "#1d2130",
                     "50": "#f4f4f5", 
