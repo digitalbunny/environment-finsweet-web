@@ -4,7 +4,7 @@
             <section class="w-full md:w-3/4 xl:w-3/5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
                 <h2 class="text-2xl font-bold col-span-2 sm:col-span-1">{ Finsweet</h2>
                 
-                <div>
+                <div class="text-xs md:text-sm xl:text-base">
                     <h2 class="font-semibold text-base lg:text-lg mb-6">Our Team</h2>
 
                     <div class="flex flex-col space-y-4 xl:space-y-6 text-zinc-500">
@@ -26,7 +26,7 @@
                     </div>
                 </div>
 
-                <div>
+                <div class="text-xs md:text-sm xl:text-base">
                     <h2 class="font-semibold text-base lg:text-lg mb-6">More</h2>
 
                     <div class="flex flex-col space-y-4 xl:space-y-6 text-zinc-500">
@@ -48,7 +48,7 @@
                     </div>
                 </div>
 
-                <div>
+                <div class="text-xs md:text-sm xl:text-base">
                     <h2 class="font-semibold text-base lg:text-lg mb-6">Connect</h2>
 
                     <div class="flex flex-col space-y-4 xl:space-y-6 text-zinc-500">
