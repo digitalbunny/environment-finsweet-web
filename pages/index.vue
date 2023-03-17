@@ -37,7 +37,7 @@
 
     <!-- About us summary -->
     <div class="container py-12 md:py-32">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 xl:gap-32 mb-8 items-center">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 xl:gap-32 mb-8 items-center">
             <div>
                 <WidgetHeading 
                     caption="Know about us"
@@ -120,7 +120,7 @@
 
     <!-- What we do -->
     <div class="bg-tertiary-green py-12 md:py-32">
-        <div class="container grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 xl:gap-32 mb-8 items-center">
+        <div class="container grid grid-cols-1 md:grid-cols-2 gap-10 xl:gap-32 mb-8 items-center">
             <section>
                 <WidgetHeading 
                     caption="What we do"
@@ -135,9 +135,9 @@
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, ullam officiis distinctio perspiciatis nihil non earum voluptate blanditiis fuga tempore temporibus assumenda, quos molestiae quisquam nulla esse, reiciendis mollitia nemo!
                         </p>
 
-                        <ul class="border-l border-zinc-200 md:pl-6 text-xs md:text-sm xl:text-base space-y-8">
+                        <ul class="border-l border-zinc-200 pl-4 md:pl-6 text-xs md:text-sm xl:text-base space-y-8">
                             <li class="flex">
-                                <div class="flex justify-center items-center bg-primary-green text-tertiary-green w-14 h-10 mr-6 rounded-md">
+                                <div class="flex justify-center items-center bg-primary-green text-tertiary-green w-14 h-8 md:h-10 mr-6 rounded-md">
                                     <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
                                     </svg>
@@ -154,7 +154,7 @@
                             </li>
 
                             <li class="flex">
-                                <div class="flex justify-center items-center bg-primary-green text-tertiary-green w-14 h-10 mr-6 rounded-md">
+                                <div class="flex justify-center items-center bg-primary-green text-tertiary-green w-14 h-8 md:h-10 mr-6 rounded-md">
                                     <svg class="w-5 h-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                         <path d="M7 15h10v4a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2v-4z"></path>
@@ -175,7 +175,7 @@
                             </li>
 
                             <li class="flex">
-                                <div class="flex justify-center items-center bg-primary-green text-tertiary-green w-14 h-10 mr-6 rounded-md">
+                                <div class="flex justify-center items-center bg-primary-green text-tertiary-green w-14 h-8 md:h-10 mr-6 rounded-md">
                                     <svg class="w-5 h-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                         <path d="M3 7c3 -2 6 -2 9 0s6 2 9 0"></path>
@@ -195,7 +195,7 @@
                             </li>
 
                             <li class="flex">
-                                <div class="flex justify-center items-center bg-primary-green text-tertiary-green w-14 h-10 mr-6 rounded-md">
+                                <div class="flex justify-center items-center bg-primary-green text-tertiary-green w-14 h-8 md:h-10 mr-6 rounded-md">
                                     <svg class="w-5 h-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                         <path d="M11 5h2"></path>
