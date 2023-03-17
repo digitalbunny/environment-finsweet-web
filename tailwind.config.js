@@ -25,8 +25,8 @@ module.exports = {
                 roboto: ["Roboto"],
             },
             colors: {
-                "theme-green": "#70C174",
-                "light-green": "#BEF3C0",
+                "primary-green": "#70C174",
+                "secondary-green": "#BEF3C0",
                 "mirage": {
                     DEFAULT: "#1d2130",
                     "50": "#f4f4f5", 

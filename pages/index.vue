@@ -60,7 +60,7 @@
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, ullam officiis distinctio perspiciatis nihil non earum voluptate blanditiis fuga tempore temporibus assumenda, quos molestiae quisquam nulla esse, reiciendis mollitia nemo!
                         </p>
 
-                        <button class="px-4 py-3 bg-theme-green font-medium text-white text-xs md:text-sm rounded-md">
+                        <button class="px-4 py-3 bg-primary-green font-medium text-white text-xs md:text-sm rounded-md">
                             Learn more
                         </button>
                     </div>
@@ -155,7 +155,7 @@
                 description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nisi ullam 
                 dolor animi eligendi quas quae explicabo veritatis expedita dolorum, placeat nostrum in hic 
                 perspiciatis, delectus officiis distinctio, soluta cum."
-                image="https://images.pexels.com/photos/12492222/pexels-photo-12492222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+                image="https://images.pexels.com/photos/12492222/pexels-photo-12492222.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1" />
 
             <CardsProject 
                 title="Wildlife safety program 2023"
