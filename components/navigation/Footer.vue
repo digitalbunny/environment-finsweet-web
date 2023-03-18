@@ -76,15 +76,15 @@
                     Subscribe to get lastest updates
                 </h2>
 
-                <div class="flex flex-no-wrap">
+                <div class="flex flex-nowrap">
                     <input 
                         type="email" 
                         placeholder="Your email" 
-                        class="grow p-5 text-zinc-200 placeholder-zinc-500 bg-transparent border border-r-0 border-zinc-800 focus:border-zinc-500 focus:outline-none rounded-md rounded-r-none">
+                        class="grow p-3 md:p-5 text-zinc-200 placeholder-zinc-500 bg-transparent border border-r-0 border-zinc-800 focus:border-zinc-500 focus:outline-none rounded-md rounded-r-none">
                     
                     <button 
                         type="submit"
-                        class="px-6 py-5 md:px-10 font-medium text-zinc-800 bg-white rounded-md">
+                        class="w-32 md:w-40 py-3 md:py-5 font-medium text-zinc-800 bg-white rounded-md">
                         Subscribe
                     </button>
                 </div>
