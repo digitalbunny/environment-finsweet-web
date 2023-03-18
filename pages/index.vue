@@ -8,9 +8,9 @@
             </h2>
 
             <div class="flex space-x-4 mb-24 md:mb-48">
-                <button class="px-4 py-3 md:px-10 bg-white font-medium text-black text-xs md:text-sm rounded-md">
+                <NuxtLink to="/what-we-do" class="inline-block px-4 py-3 md:px-10 bg-white font-medium text-black text-xs md:text-sm rounded-md">
                     What we do
-                </button>
+                </NuxtLink>
 
                 <button class="px-4 py-3 md:px-10 font-medium text-white text-xs md:text-sm border border-transparent hover:border-white flex items-center space-x-2 rounded-md">
                     <svg class="w-4 h-4 md:w-5 md:h-5" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -56,9 +56,9 @@
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, ullam officiis distinctio perspiciatis nihil non earum voluptate blanditiis fuga tempore temporibus assumenda, quos molestiae quisquam nulla esse, reiciendis mollitia nemo!
                         </p>
 
-                        <button class="px-4 py-3 bg-primary-green font-medium text-white text-xs md:text-sm rounded-md">
+                        <NuxtLink to="/about" class="inline-block px-4 py-3 bg-primary-green font-medium text-white text-xs md:text-sm rounded-md">
                             Learn more
-                        </button>
+                        </NuxtLink>
                     </div>
                 </div>
             </div>

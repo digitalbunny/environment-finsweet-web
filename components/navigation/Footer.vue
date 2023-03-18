@@ -8,7 +8,7 @@
                     <h2 class="font-semibold text-base lg:text-lg mb-6">Our Team</h2>
 
                     <div class="flex flex-col space-y-4 xl:space-y-6 text-zinc-500">
-                        <NuxtLink to="/" class="hover:text-white">
+                        <NuxtLink to="/about" class="hover:text-white">
                             About us
                         </NuxtLink>
 
@@ -16,11 +16,11 @@
                             Team
                         </NuxtLink>
 
-                        <NuxtLink to="/" class="hover:text-white">
+                        <NuxtLink to="/what-we-do" class="hover:text-white">
                             What we do
                         </NuxtLink>
 
-                        <NuxtLink to="/" class="hover:text-white">
+                        <NuxtLink to="/contact" class="hover:text-white">
                             Contact
                         </NuxtLink>
                     </div>
@@ -30,19 +30,19 @@
                     <h2 class="font-semibold text-base lg:text-lg mb-6">More</h2>
 
                     <div class="flex flex-col space-y-4 xl:space-y-6 text-zinc-500">
-                        <NuxtLink to="/" class="hover:text-white">
+                        <NuxtLink to="/projects" class="hover:text-white">
                             Projects
                         </NuxtLink>
 
-                        <NuxtLink to="/" class="hover:text-white">
+                        <NuxtLink to="/events" class="hover:text-white">
                             Events
                         </NuxtLink>
 
-                        <NuxtLink to="/" class="hover:text-white">
+                        <NuxtLink to="/donate" class="hover:text-white">
                             Donate
                         </NuxtLink>
 
-                        <NuxtLink to="/" class="hover:text-white">
+                        <NuxtLink to="/blog" class="hover:text-white">
                             Blog
                         </NuxtLink>
                     </div>

@@ -3,7 +3,7 @@
         class="bg-cover bg-scroll bg-no-repeat bg-center bg-black/50 bg-blend-overlay py-12 md:py-32 px-4 text-center text-white rounded-md" 
         :style="{'background-image': `url(${'https://images.pexels.com/photos/6135900/pexels-photo-6135900.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1'})`}">
 
-        <h2 class="font-bold line-heading max-w-md md:max-w-lg mx-auto mb-4">
+        <h2 class="font-bold line-heading max-w-md md:max-w-lg mx-auto mb-6 md:mb-10">
             You can contribute to make the environment greener
         </h2>
 
