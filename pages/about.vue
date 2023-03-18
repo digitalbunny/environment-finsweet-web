@@ -54,11 +54,19 @@
     </div>
 
     <!-- Awards -->
-    <div class="container py-12 md:py-32 space-y-12">
+    <div class="container py-12 md:py-32 space-y-12 md:space-y-24">
         <section>
-            <h2 class="main-heading text-center mb-4">Awards & Recognition</h2>
+            <h2 class="main-heading text-center mb-10">Awards & Recognition</h2>
 
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-10"></div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-10">
+                <WidgetAward year="2022" title="Best NGO award" description="Berlin, German" />
+
+                <WidgetAward year="2021" title="Global award" description="New York, USA" />
+
+                <WidgetAward year="2019" title="Forest award" description="New Delhi, India" />
+
+                <WidgetAward year="2014" title="Earth award" description="Vienna, Austria" />
+            </div>
         </section>
 
         <section class="bg-black text-white grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 py-12 md:py-20 pl-4 md:pl-0 items-center rounded-md">
