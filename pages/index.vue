@@ -263,7 +263,9 @@
         </section>
     </div>
 
-    <div class="container py-12 md:py-32 space-y-10">
+    <div class="container py-12 md:py-32 space-y-12">
+        <WidgetJumbotron />
+
         <!-- News -->
         <section>
             <WidgetLinedHeading title="Read our news" class="font-semibold capitalize mb-10" />

@@ -24,3 +24,7 @@
 .card-text {
   @apply text-xs md:text-sm xl:text-base font-light;
 }
+
+.line-heading {
+  @apply text-lg md:text-2xl xl:text-4xl;
+}
