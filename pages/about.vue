@@ -54,7 +54,7 @@
     </div>
 
     <!-- Awards -->
-    <div class="container py-12 md:py-32 space-y-12 md:space-y-24">
+    <div class="container pt-12 md:pt-32 space-y-12 md:space-y-24">
         <section>
             <h2 class="main-heading text-center mb-10">Awards & Recognition</h2>
 
@@ -110,6 +110,20 @@
                 src="https://images.pexels.com/photos/3184398/pexels-photo-3184398.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1" 
                 alt="img"
                 class="object-cover w-full rounded-l-md">
+        </section>
+
+        <section>
+            <h2 class="text-center main-heading mb-2">
+                Meet our team
+            </h2>
+            <p class="card-text text-center mx-auto w-full md:max-w-xl xl:max-w-3xl mb-10">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem dolorem a placeat necessitatibus qui voluptates 
+                repudiandae eligendi atque illo quia cupiditate temporibus omnis, beatae quas fuga sequi id obcaecati iure!
+            </p>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-10">
+                <WidgetTeam v-for="i in 8" :key="i" />
+            </div>
         </section>
     </div>
 

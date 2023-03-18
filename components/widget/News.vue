@@ -4,7 +4,7 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-10">
             <CardsNews 
-                image="https://images.pexels.com/photos/5118335/pexels-photo-5118335.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1" 
+                image="https://images.pexels.com/photos/5118335/pexels-photo-5118335.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1"     
                 title="Don't destroy greeny and don't spoil scenery" 
                 description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut facere in 
                 modi hic quis odio quidem voluptate itaque. Dolore officiis beatae at sequi ex illum 

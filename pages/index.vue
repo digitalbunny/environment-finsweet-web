@@ -233,6 +233,6 @@
         <WidgetNews />
 
         <!-- Events -->
-        <WidgetNews />
+        <WidgetEvents />
     </div>
 </template>
