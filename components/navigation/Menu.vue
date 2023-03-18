@@ -23,7 +23,7 @@
                         :class="[router.path == link.route ? 'text-black' : '']" 
                         v-for="link in links" 
                         :key="link.name">
-                        <NuxtLink to="/">
+                        <NuxtLink :to="link.route">
                             {{ link.name }}
                         </NuxtLink>
                     </li>

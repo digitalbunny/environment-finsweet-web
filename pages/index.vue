@@ -78,49 +78,12 @@
         </div>
 
         <!-- Supporters -->
-        <div>
-            <div class="flex justify-start items-center space-x-4 mb-8">
-                <h2 class="text-xs md:text-sm xl:text-base font-medium uppercase">Our supporters</h2>
-                <div class="grow h-px bg-zinc-200"></div>
-            </div>
-
-            <div class="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 items-center gap-6">
-                <img 
-                    src="https://depave.org/wp/wp-content/uploads/2017/08/Depave-Trademark-ARR.png" 
-                    alt="supporter" 
-                    class="object-cover grayscale hover:grayscale-0 w-full">
-
-                <img 
-                    src="https://www.earthday.org/wp-content/uploads/2020/04/Connect4Climate-300x122.png" 
-                    alt="supporter" 
-                    class="object-cover grayscale hover:grayscale-0 w-full">
-
-                <img 
-                    src="https://www.earthday.org/wp-content/uploads/2020/01/FCR-Logo-long-300x122.png" 
-                    alt="supporter" 
-                    class="object-cover grayscale hover:grayscale-0 w-full">
-
-                <img 
-                    src="https://www.earthday.org/wp-content/uploads/2019/12/82559367_ccan-logo-transparent-250x107.png" 
-                    alt="supporter" 
-                    class="object-cover grayscale hover:grayscale-0 w-full">
-
-                <img 
-                    src="https://www.earthday.org/wp-content/uploads/2019/12/2019-09-10_1658_005.png" 
-                    alt="supporter" 
-                    class="object-cover grayscale hover:grayscale-0 w-full">
-                    
-                <img 
-                    src="https://www.earthday.org/wp-content/uploads/2020/01/logo.png" 
-                    alt="supporter" 
-                    class="object-cover grayscale hover:grayscale-0 w-full">
-            </div>
-        </div>
+        <WidgetSupporters />
     </div>
 
     <!-- What we do -->
     <div class="bg-tertiary-green py-12 md:py-32">
-        <div class="container grid grid-cols-1 md:grid-cols-2 gap-10 xl:gap-32 mb-8 items-center">
+        <div class="container grid grid-cols-1 md:grid-cols-2 gap-10 xl:gap-32 items-center">
             <section>
                 <WidgetHeading 
                     caption="What we do"
@@ -267,49 +230,9 @@
         <WidgetJumbotron />
 
         <!-- News -->
-        <section>
-            <WidgetLinedHeading title="Read our news" class="font-semibold capitalize mb-10" />
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-10">
-                <CardsNews 
-                    image="https://images.pexels.com/photos/5118335/pexels-photo-5118335.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1" 
-                    title="Don't destroy greeny and don't spoil scenery" 
-                    description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut facere in 
-                    modi hic quis odio quidem voluptate itaque. Dolore officiis beatae at sequi ex illum 
-                    ducimus quidem excepturi iure ipsa." />
-
-                <CardsNews 
-                    image="https://images.pexels.com/photos/4827/nature-forest-trees-fog.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1" 
-                    title="Is climate change happening faster than expected?" 
-                    description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut facere in 
-                    modi hic quis odio quidem voluptate itaque. Dolore officiis beatae at sequi ex illum 
-                    ducimus quidem excepturi iure ipsa." />
-
-                <CardsNews 
-                    image="https://images.pexels.com/photos/3619870/pexels-photo-3619870.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1" 
-                    title="Top 10 facts about wind farms you didn't know" 
-                    description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut facere in 
-                    modi hic quis odio quidem voluptate itaque. Dolore officiis beatae at sequi ex illum 
-                    ducimus quidem excepturi iure ipsa." />
-
-                <CardsNews 
-                    image="https://images.pexels.com/photos/949194/pexels-photo-949194.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1" 
-                    title="Our goal is to make water available for everyone" 
-                    description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut facere in 
-                    modi hic quis odio quidem voluptate itaque. Dolore officiis beatae at sequi ex illum 
-                    ducimus quidem excepturi iure ipsa." />
-            </div>
-        </section>
+        <WidgetNews />
 
         <!-- Events -->
-        <section>
-            <WidgetLinedHeading title="Our events" class="font-semibold capitalize mb-10" />
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <CardsEvent date="" title="Say no to plastic usage and save the planet" />
-
-                <CardsEvent date="" title="Weekly cleaning program" />
-            </div>
-        </section>
+        <WidgetNews />
     </div>
 </template>
