@@ -53,6 +53,58 @@
         </div>
     </div>
 
+    <!-- Awards -->
+    <div class="container py-12 md:py-32 space-y-12">
+        <section>
+            <h2 class="main-heading text-center mb-4">Awards & Recognition</h2>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-10"></div>
+        </section>
+
+        <section class="bg-black text-white grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 py-12 md:py-20 pl-4 md:pl-0 items-center rounded-md">
+            <div class="pr-4 md:pl-20 space-y-2 lg:space-y-4">
+                <h2 class="card-caption">Our journey</h2>
+
+                <h2 class="main-heading">
+                    How we raise 34M
+                </h2>
+
+                <p class="text-zinc-400 card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae libero, sint obcaecati 
+                    maxime et est commodi? Labore impedit pariatur in voluptas tempora suscipit inventore quasi 
+                    ipsam! Aliquam eius perferendis beatae!
+                </p>
+
+                <!-- Statistics -->
+                <div class="flex flex-nowrap space-x-4 md:space-x-10 py-6">
+                    <section>
+                        <h2 class="card-title">34M+</h2>
+                        <p class="text-xs lg:text-sm text-zinc-400">
+                            Donation received
+                        </p>
+                    </section>
+                    <section>
+                        <h2 class="card-title">400+</h2>
+                        <p class="text-xs lg:text-sm text-zinc-400">
+                            Volunters
+                        </p>
+                    </section>
+                    <section>
+                        <h2 class="card-title">40K+</h2>
+                        <p class="text-xs lg:text-sm text-zinc-400">
+                            Tree planted
+                        </p>
+                    </section>
+                </div>
+            </div>
+
+            <img 
+                src="https://images.pexels.com/photos/3184398/pexels-photo-3184398.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1" 
+                alt="img"
+                class="object-cover w-full rounded-l-md">
+        </section>
+    </div>
+
     <div class="container py-12 md:py-32 space-y-12">
         <WidgetJumbotron />
 

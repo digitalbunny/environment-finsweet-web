@@ -17,7 +17,7 @@
         <div class="flex justify-start md:space-x-4">
             <div class="hidden md:block md:w-[10%] h-full"></div>
             <div class="w-full md:w-[90%]">
-                <h2 class="font-bold text-2xl md:text-4xl xl:text-5xl leading-8 text-left">
+                <h2 class="main-heading text-left">
                     {{ props.title }}
                 </h2>
             </div>
