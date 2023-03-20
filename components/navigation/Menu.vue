@@ -6,8 +6,8 @@
         { name: "Home", route: "/"},
         { name: "About us", route: "/about"},
         { name: "What we do", route: "/what-we-do"},
-        { name: "Media", route: "/media"},
-        { name: "Media", route: "/contact"},
+        { name: "Media", route: "/news"},
+        { name: "Contact", route: "/contact"},
     ]);
 </script>
 

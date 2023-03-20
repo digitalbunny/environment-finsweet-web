@@ -1,6 +1,15 @@
+<script lang="ts" setup>
+    const props = defineProps({
+        showHeading: {
+            type: Boolean,
+            default: true
+        }
+    });
+</script>
+
 <template>
     <section>
-        <WidgetLinedHeading title="Read our news" class="font-semibold capitalize mb-10" />
+        <WidgetLinedHeading title="Read our news" class="font-semibold capitalize mb-10" v-if="props.showHeading" />
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-10">
             <CardsNews 
