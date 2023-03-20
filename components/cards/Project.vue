@@ -8,7 +8,7 @@
 
 <template>
     <figure 
-        class="relative p-6 md:py-12 md:px-10 bg-no-repeat bg-center bg-cover bg-blend-overlay bg-black/70 text-white rounded-md"
+        class="relative p-6 md:py-16 md:px-10 bg-no-repeat bg-center bg-cover bg-blend-overlay bg-black/70 text-white rounded-md"
         :style="{'background-image': `url(${props.image})`}">
         <figcaption class="flex flex-col space-y-4">
             <div class="space-y-2 mb-10">
