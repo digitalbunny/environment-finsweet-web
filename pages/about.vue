@@ -1,3 +1,7 @@
+<script lang="ts" setup>
+    import { IconPlayerPlay } from "@tabler/icons-vue"
+</script>
+
 <template>
 
     <div class="container py-12 md:py-32">
@@ -22,7 +26,21 @@
 
     <!-- Mission & Vision -->
     <div class="bg-tertiary-green py-12 md:py-32">
+
         <div class="container space-y-10">
+            <!-- Hanging Image -->
+            <!-- <div class="relative pb-28">
+                <div 
+                    class="absolute bottom-1/2 overflow-hidden bg-center bg-cover bg-no-repeat w-full h-40 md:h-[360px] xl:h-[420px] rounded-md"
+                    :style="{'background-image': `url(${'https://images.pexels.com/photos/6591427/pexels-photo-6591427.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1'})` }">
+                    <div class="flex justify-center items-center w-full h-full bg-black/40">
+                        <div class="inline-block p-4 bg-white text-zinc-800 rounded-full">
+                            <IconPlayerPlay :size="20" fill="currentColor" />
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
             <section class="grid grid-cols-1 md:grid-cols-2 gap-10 xl:gap-32">
                 <div class="space-y-3">
                     <h2 class="card-caption">Our mission</h2>
