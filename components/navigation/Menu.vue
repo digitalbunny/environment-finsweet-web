@@ -1,7 +1,9 @@
 <script lang="ts" setup>
     import { ref } from "vue"
+    import { IconMenu2, IconX } from "@tabler/icons-vue"
 
     const router = useRoute();
+    const show = ref<boolean>(false);
     const links = ref<Array<{name: string, route: string}>>([
         { name: "Home", route: "/"},
         { name: "About us", route: "/about"},
@@ -33,6 +35,45 @@
                     Donate
                 </button>
             </div>
+
+            <div class="md:hidden py-2">
+                <button @click="show=true">
+                    <IconMenu2 :size="20" />
+                </button>
+            </div>
         </div>
+
+        <!-- Mobile Menu -->
+        <Transition 
+            name="mobile-sidebar-transition"
+            enter-active-class="transition-transform duration-300 ease-linear origin-right"
+            enter-from-class="scale-x-0"
+            enter-to-class="scale-x-100"
+            
+            leave-active-class="transition-transform duration-300 ease-linear origin-right"
+            leave-from-class="scale-x-100"
+            leave-to-class="scale-x-0">
+
+            <div class="fixed right-0 inset-y-0 w-60 z-20 bg-mirage" v-if="show">
+                <div class="flex justify-end py-4 px-2">
+                    <button class="text-white px-4 py-2" @click="show=false">
+                        <IconX :size="20" />
+                    </button>
+                </div>
+
+                <div class="flex flex-col font-medium text-xs uppercase">
+                    <NuxtLink 
+                        :to="link.route"
+                        class="p-4 text-white hover:text-white" 
+                        :class="[router.path == link.route ? ' bg-primary-green' : '']" 
+                        v-for="link in links" 
+                        :key="link.name"
+                        @click="show = false">
+                        {{ link.name }}
+                    </NuxtLink>
+                </div>
+
+            </div>
+        </Transition>
     </nav>
 </template>
