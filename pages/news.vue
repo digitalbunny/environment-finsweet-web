@@ -7,7 +7,7 @@
                     title="Our goal is to make water available for everyone"
                     class="mb-10" />
 
-                <div class="md:pl-10 lg:pl-20 space-y-6">
+                <div class="md:pl-14 xl:pl-20 space-y-6">
                     <p class="card-text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores iure praesentium quia 
                         minima voluptatem accusantium veritatis, illum molestiae.

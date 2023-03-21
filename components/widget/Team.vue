@@ -13,11 +13,17 @@
             <h2 class="card-title">Freddy Busy</h2>
             <p class="card-text">Project Manager</p>
             <div class="flex justify-center space-x-4">
-                <IconBrandFacebook color="black" :size="18" stroke-width="1.5" />
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <IconBrandFacebook color="black" :size="20" stroke-width="1.5" />
+                </a>
 
-                <IconBrandTwitter color="black" :size="18" stroke-width="1.5" />
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <IconBrandTwitter color="black" :size="20" stroke-width="1.5" />
+                </a>
 
-                <IconBrandLinkedin color="black" :size="18" stroke-width="1.5" />
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <IconBrandLinkedin color="black" :size="20" stroke-width="1.5" />
+                </a>
             </div>
         </div>
     </div>
