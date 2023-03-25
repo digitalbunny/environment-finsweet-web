@@ -32,8 +32,8 @@
                 class="ml-auto object-cover rounded-md">
         </div>
     </div>
-    <div class="container py-12 md:py-32 space-y-20">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 xl:gap-20 border-b border-zinc-200 pb-20">
+    <div class="container py-12 md:py-32 space-y-10 md:space-y-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 xl:gap-20 border-b border-zinc-200 pb-10 md:pb-20">
             <div>
                 <h2 class="main-heading mb-2">
                     How you can contribute to protect earth
