@@ -57,4 +57,39 @@
             </section>
         </div>
     </div>
+
+    <div class="container py-12 md:py-32">
+        <form class="max-w-full md:max-w-2xl xl:max-w-4xl mx-auto space-y-4 lg:space-y-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-10">
+                <div class="space-y-2">
+                    <label for="firstName" class="text-zinc-500 text-sm xl:text-base">First Name</label>
+                    <input type="text" class="input-basic" required>
+                </div>
+
+                <div class="space-y-2">
+                    <label for="lastName" class="text-zinc-500 text-sm xl:text-base">Last Name</label>
+                    <input type="text" class="input-basic" required>
+                </div>
+
+                <div class="space-y-2">
+                    <label for="email" class="text-zinc-500 text-sm xl:text-base">Email</label>
+                    <input type="email" class="input-basic" required>
+                </div>
+
+                <div class="space-y-2">
+                    <label for="subject" class="text-zinc-500 text-sm xl:text-base">Subject</label>
+                    <input type="text" class="input-basic" required>
+                </div>
+            </div>
+
+            <div class="space-y-2">
+                <label for="message" class="text-zinc-500 text-sm xl:text-base">Message</label>
+                <textarea name="message" rows="6" placeholder="Type your message" class="input-textarea"></textarea>
+            </div>
+
+            <button type="submit" class="mx-auto block px-4 py-3 md:px-10 bg-primary-green font-medium text-white text-xs md:text-sm rounded-md">
+                Send Message
+            </button>
+        </form>
+    </div>
 </template>
