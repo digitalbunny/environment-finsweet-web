@@ -145,7 +145,7 @@
         </section>
     </div>
 
-    <div class="container py-12 md:py-32 space-y-12">
+    <div class="container py-12 md:py-32 space-y-20">
         <WidgetJumbotron />
 
         <!-- News -->

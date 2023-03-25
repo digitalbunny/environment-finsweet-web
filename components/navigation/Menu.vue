@@ -31,9 +31,9 @@
                     </li>
                 </ul>
 
-                <button class="px-6 py-2 md:px-10 text-white bg-mirage rounded-md">
+                <NuxtLink to="/donate" class="px-6 py-2 md:px-10 text-white bg-mirage rounded-md">
                     Donate
-                </button>
+                </NuxtLink>
             </div>
 
             <div class="md:hidden py-2">
